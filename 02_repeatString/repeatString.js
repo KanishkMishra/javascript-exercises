@@ -5,6 +5,9 @@ const repeatString = function(String, num) {
         repeats=repeats+String;
     }
 
+    if (num<0) repeats="ERROR";
+    if (num==0) repeats="";
+
     return repeats;
 };
 
